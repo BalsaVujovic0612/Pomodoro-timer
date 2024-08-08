@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-container{
+    background-color: black;
+    padding: 100px 300px;
+}
+
+h1{
+    color: white;
+    margin-left: 180px;
+    font-size: 80px;
+    margin-bottom: 120px;
+}
+
+#timer{
+
+    color: white;
+    margin-left: 270px;
+    font-size: 150px;
+    margin-bottom: 140px;
+}
+
+button{
+    font-size: 30px;
+    height: 100px;
+    width: 300px;
+}
+
+#start-btn{
+    background-color: aquamarine;
+}
+
+#reset-btn{
+    background-color: yellow;
+}
+
+#stop-btn{
+    background-color: red;
+}
